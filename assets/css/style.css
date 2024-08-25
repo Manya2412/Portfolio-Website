@@ -7,7 +7,6 @@
     width: (1,440px)px;
     height: (152px)px;
     padding: 38px 96px 38px 96px;
-    gap: 0px;
     justify-content: space-between;
     background: rgba(255, 255, 255, 1);
     box-shadow: 4px 0px 10px 0px rgba(47, 122, 249, 0.1);
@@ -382,21 +381,162 @@ height: 621px;
 top: 3356px;
 padding: 0px 0px 20px 0px;
 margin-top: 40px;
-display: flex;
-  justify-content: center;
+
 }
 .footer-logo {
     width: 970px;
 height: 144px;
+display: flex;
+justify-content: center;
+margin-left: 200px;
 }
 .frame1 {
     width: 140px;
 height: 144px;
 padding-left: 55px;
 }
-.frame1 {
+.frame2 {
     width: 140px;
 height: 144px;
-padding-left: 55px;
+padding-left: 75px;
 float: left;
+}
+.frame270 {
+    width: 1,440px;
+height: 335px;
+padding: 45px 98px 0px 98px;
+gap: 40px;
+float: left;
+margin-left: 30px;
+}
+.rectangle98 {
+    width: 158px;
+height: 76px;
+top: 45px;
+left: 98px;
+}
+.frame271 {
+    width: 1,244px;
+height: 230px;
+margin-top: 30px;
+display: flex;
+}
+.logos {
+    width: 177px;
+height: 230px;
+float: left;
+margin-left: 10px;
+}
+.rectangle97 {
+    width: 177px;
+height: 61px;
+}
+.upwork {
+    width: 91px;
+height: 40px;
+border-radius: 4px;
+}
+.upwork1 p{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+color: rgba(118, 118, 118, 1);
+margin-top: 0px;
+}
+.group270 {
+    width: 149px;
+height: 64px;
+margin-top: 16px;
+}
+.dribble {
+    width: 73px;
+height: 40px;
+border-radius: 4px;
+}
+.rectangle100 {
+    width: 146px;
+height: 65px;
+margin-top: 16px;
+}
+.fiverr {
+    width: 76px;
+height: 40px;
+border-radius: 4px;
+}
+.links {
+    width: 780px;
+height: 202px;
+float: left;
+margin-left: 220px;
+display: flex;
+}
+.quicklinks {
+    width: 141px;
+height:202px;
+margin-left: 60px;
+float: left;
+}
+.heading p{
+    width: 114px;
+height: 30px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+margin-top: 0px;
+}
+.heading1 p{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+.portfolio {
+    width: 174px;
+height: 202px;
+margin-left: 110px;
+float: left;
+}
+.connect{
+    width: 125px;
+height: 157px;
+margin-left: 110px;
+float: left;
+}
+.social {
+    width: 100px;
+height: 25px;
+padding-bottom: 17px;
+}
+.copyright {
+    width: 283px;
+height: 50px;
+padding: 16px 0px 16px 0px;
+float: left;
+margin-left: 600px;
+margin-top: 0px;
+}
+.vector {
+    width: 21px;
+height: 21px;
+top: 1.5px;
+left: 1.5px;
+float: left;
+}
+.copyright p{
+    width: 249px;
+height: 24px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(118, 118, 118, 1);
+float: left;
+margin-left: 10px;
+margin-top: 0px;
 }

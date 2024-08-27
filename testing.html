@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills & Languages</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .category {
+            width: 32%;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .category h3 {
+            margin-bottom: 10px;
+        }
+
+        .skill {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .skill .name {
+            font-weight: bold;
+        }
+
+        .skill .progress {
+            width: 80%;
+            height: 8px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .skill .progress-bar {
+            height: 100%;
+            background-color: #ffc107;
+            border-radius: 5px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: width 0.3s ease;
+        }
+
+        .add-skill-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .dialog {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+
+        .dialog-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            width: 400px;
+        }
+
+        .dialog-content h2 {
+            margin-bottom: 10px;
+        }
+
+        .dialog-content input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .dialog-content input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .dialog-content button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .dialog-content button:hover {
+            background-color: #0069d9;
+        }
+
+        .dialog-content .close-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Skills & Languages</h1>
+        <div class="section">
+            <div class="category">
+                <h3>Front End Development</h3>
+                <div class="skill">
+                    <span class="name">Html</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                    <span>90%</span>
+                </div>
+                <div class="skill">
+                    <span class="name">CSS</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                    </div>
+                    <span>85%</span>
+                </div>
+                <div class="skill">
+                    <span class="name">Js</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                    <span>80%</span>
+                </div>
+                <div class="skill">
+                    <span class="name">PHP</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                    </div>
+                    <span>75%</span>
+                </div>
+                <div class="skill">
+                    <span class="name">WordPress</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                    </div>
+                    <span>85%</span>
+                </div>
+            </div>
+            <div class="category">
+                <h3>Languages</h3>
+                <div class="skill">
+                    <span class="name">Hindi</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                    <span>90%</span>
+                </div>
+                <div class="skill">
+                    <span class="name">English</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                    </div>
+                    <span>85%</span>
+                </div>
+            </div>
+            <div class="category">
+                <h3>Back End Development</h3>
+                <div class="skill">
+                    <span class="name">NodeJS</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                    </div>
+                    <span>90%</span>
+                </div>
+                <div class="skill">
+                    <span class="name">SSR</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                    </div>
+                    <span>85%</span>
+                </div>
+            </div>
+        </div>
+
+        <button class="add-skill-button" onclick="openDialog()">ADD SKILL</button>
+
+        <div class="dialog" id="addSkillDialog">
+            <div class="dialog-content">
+                <span class="close-button" onclick="closeDialog()">&times;</span>
+                <h2>Add New Skill</h2>
+                <label for="skillName">Skill Name:</label>
+                <input type="text" id="skillName">
+                <label for="skillCategory">Category:</label>
+                <input type="text" id="skillCategory" placeholder="e.g., Front End Development, Languages, Back End Development">
+                <label for="skillPercentage">Proficiency (Percentage):</label>
+                <input type="number" id="skillPercentage" min="0" max="100">
+                <button onclick="addSkill()">Add Skill</button>
+                <button onclick="closeDialog()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openDialog() {
+            document.getElementById('addSkillDialog').style.display = 'block';
+        }
+
+        function closeDialog() {
+            document.getElementById('addSkillDialog').style.display = 'none';
+        }
+
+        function addSkill() {
+            const skillName = document.getElementById('skillName').value;
+            const skillCategory = document.getElementById('skillCategory').value;
+            const skillPercentage = document.getElementById('skillPercentage').value;
+
+            if (skillName && skillCategory && skillPercentage) {
+                // Find the correct category element
+                const categoryElement = document.querySelector(`.category:nth-child(${
+                    skillCategory.toLowerCase() === 'front end development' ? 1 :
+                    skillCategory.toLowerCase() === 'languages' ? 2 : 3
+                })`);
+
+                // Create the skill element
+                const skillElement = document.createElement('div');
+                skillElement.classList.add('skill');
+                skillElement.innerHTML = `
+                    <span class="name">${skillName}</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: ${skillPercentage}%;"></div>
+                    </div>
+                    <span>${skillPercentage}%</span>
+                `;
+
+                // Append the skill to the category
+                categoryElement.appendChild(skillElement);
+
+                closeDialog(); // Close the dialog after adding
+            } else {
+                alert('Please fill in all fields.');
+            }
+        }
+    </script>
+</body>
+</html>

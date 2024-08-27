@@ -4,8 +4,8 @@
     background: rgba(240, 240, 246, 1);
 }
 .navbar {
-    width: (1,440px)px;
-    height: (152px)px;
+    width: 1,440px;
+    height: 90px;
     padding: 38px 96px 38px 96px;
     justify-content: space-between;
     background: rgba(255, 255, 255, 1);
@@ -13,6 +13,8 @@
     display: flex;
     margin-bottom: 0;
     position: fixed;
+    z-index: 1;
+    top:0;
 }
 .nav-photo {
     width: 158px;
@@ -29,7 +31,7 @@
     gap: 0px;
 }
 .nav-menu {
-    width: 614px;
+    width: 604px;
     height: 37px;
     gap: 0px;
     float: left;
@@ -46,6 +48,7 @@
     display: flex;
     justify-content: center; 
     align-items: center;
+    cursor: pointer;
 }
 .a1 {
     width: 68px;
@@ -74,6 +77,7 @@
     display: flex;
     justify-content: center; 
     align-items: center;
+    cursor: pointer;
 }
 .b1 {
     width: 35px;
@@ -539,4 +543,164 @@ color: rgba(118, 118, 118, 1);
 float: left;
 margin-left: 10px;
 margin-top: 0px;
+}
+.contact-info {
+    width: 1,440px;
+height: 759.67px;
+top: 2536.33px;
+padding: 0px 98px 0px 98px;
+display: grid;
+place-items: center;
+}
+.content {
+    width: 1244px;
+height: 759.67px;
+display: flex;
+}
+.leave-info{
+    width: 846px;
+height: 759px;
+top: 0.67px;
+left: 98px;
+gap: 45px;
+float: left;
+}
+.information{
+    width: 373px;
+height: 759.67px;
+left: 969px;
+float: left;
+}
+.information p{
+    width: 318px;
+height: 39px;
+left: 969px;
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 39.55px;
+text-align: left;
+}
+.location{
+    width: 372.7px;
+height: 200px;
+left: 969px;
+background-color: white;
+}
+.ellipse41 {
+    width: 40.29px;
+height: 40.21px;
+margin-left: 80px;
+margin-top: 27px;
+}
+.location1{
+    width: 18.13px;
+height: 18.1px;
+margin-left: 85px;
+margin-top: 0px;
+}
+.location2 p{
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 22.25px;
+text-align: left;
+margin-left: 20px;
+}
+.country {
+    width: 58.42px;
+height: 22.12px;
+}
+.location3 p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.25px;
+    text-align: left;
+    margin-left: 20px;
+}
+.country1 {
+        width: 58.42px;
+    height: 22.12px;
+}
+.location3{
+        margin-top: -120px;
+    margin-left: 290px;
+}
+.location4{
+    margin-top: -120px;
+    margin-left: 300px;
+}
+    .location4 p{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22.25px;
+        text-align: left;
+        margin-left: -87px;
+     }
+ .location5{
+        margin-top: -120px;
+        margin-left: 300px;
+}
+.location5 p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.25px;
+    text-align: left;
+    margin-left: -34px;
+}
+.leave-info p{
+    width: 846px;
+height: 40.21px;
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 39.55px;
+text-align: left;
+}
+.info-details {
+    width: 740px;
+height: 604.79px;
+padding: 25px 36px 25px 36px;
+gap: 22px;
+background: rgba(255, 255, 255, 1);
+}
+label {
+    width: 339.93px;
+height: 22.04px;
+top: 25px;
+left: 36px;
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 22.25px;
+text-align: left;
+color: rgba(118, 118, 118, 1);
+}
+#name, #email, #subject {
+    width: 730px;
+height: 50px;
+margin-top: 2px;
+border-radius: 5px;
+background: rgba(240, 240, 246, 1);
+border: none;
+}
+#message {
+    width: 730px;
+height: 150px;
+margin-top: 2px;
+border-radius: 5px;
+background: rgba(240, 240, 246, 1);
+border: none;
+}
+button {
+    width: 151px;
+height: 50.83px;
+padding: 17px 16px 17px 16px;
+border-radius: 5px;
+background: rgba(255, 180, 0, 1);
+border: none;
+cursor: pointer;
 }

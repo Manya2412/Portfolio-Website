@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.dialog-content {
+    width: 833px;
+    height: 894.65px;
+    padding: 36px 28px 36px 28px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dialog-content p {
+    width: 833px;
+height: 54px;
+font-family: Inter;
+font-size: 44px;
+font-weight: 700;
+line-height: 54.38px;
+text-align: center;
+}
+
+.domain-section {
+    width: 777px;
+height: 120.15px;
+}
+
+.domain-section label {
+    width: 793px;
+height: 27.5px;
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 27.5px;
+text-align: left;
+}
+
+.domain-section input[type="text"] {
+    width: 810px;
+height: 64px;
+border-radius: 5px;
+background: rgba(240, 240, 246, 1);
+border: none;
+margin-top: 15px;
+font-size: 18px;
+font-weight: 500;
+line-height: 22.25px;
+text-align: left;
+}
+
+.dialog-skill-section {
+    width: 810px;
+height: 507.5px;
+}
+
+.dialog-skill-section p{
+    width: 777px;
+height: 27.5px;
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 26.4px;
+text-align: left;
+}
+
+.doamin-heading {
+    width: 777px;
+height: 22px;
+display: flex;
+}
+.domain-skill-name {
+font-family: Inter;
+width: 675px;
+font-size: 18px;
+font-weight: 500;
+line-height: 22.25px;
+text-align: left;
+float: left;
+}
+.domain-proficiency {
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 22.25px;
+text-align: right;
+float: left;
+}
+.dialog-skill {
+    width: 810px;
+height: 434px;
+display: flex;
+}
+.dialog-skill-1 {
+    width: 650px;
+height: 434px;
+float: left;
+}
+.dialog-skill-2 {
+    width: 170px;
+height: 434px;
+float: left;
+}
+#dialog-skill{
+    width: 610px;
+height: 64px;
+border-radius: 5px;
+background: rgba(240, 240, 246, 1);
+border: none;
+}
+#dialog-proficiency {
+    width: 170px;
+height: 64px;
+border-radius: 5px;
+background: rgba(240, 240, 246, 1);
+border: none;
+}
+
+.button1 {
+  padding: 10px 20px;
+  background-color: rgba(255, 180, 0, 1);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.94px;
+margin-left: 550px;
+}
+
+.button2 {
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid rgba(255, 180, 0, 1);
+  color: red;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.94px;
+margin-left: 10px;
+}
+</style>
+</head>
+<body>
+<div class="dialog-content">
+  <p>Add Skill</p>
+
+  <div class="domain-section">
+    <label for="domain">Domain</label>
+    <input type="text" id="domain" placeholder="Front End Development">
+  </div>
+
+  <div class="dialog-skill-section">
+    <p>Skills</p>
+    <div class="domain-heading">
+        <div class="domain-skill-name">Skill</div>
+        <div class="domain-proficiency">Proficiency (%)</div>
+    </div> <br><br>
+
+    <div class="dialog-skill">
+        <div class="dialog-skill-1">
+            <input type="text" id="dialog-skill" ><br><br>
+            <input type="text" id="dialog-skill" ><br><br>
+            <input type="text" id="dialog-skill" ><br><br>
+            <input type="text" id="dialog-skill" ><br><br>
+            <input type="text" id="dialog-skill" ><br><br>
+        </div>
+        <div class="dialog-skill-2">
+            <input type="number" id="dialog-proficiency" ><br><br>
+            <input type="number" id="dialog-proficiency" ><br><br>
+            <input type="number" id="dialog-proficiency" ><br><br>
+            <input type="number" id="dialog-proficiency" ><br><br>
+            <input type="number" id="dialog-proficiency" ><br><br>
+        </div>
+    </div>
+
+    <button class="button1" onclick="addSkill()">ADD SKILL</button>
+    <button class="button2" onclick="closeDialog()">CANCEL</button>
+</div>
+
+</body>
+</html>

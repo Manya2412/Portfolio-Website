@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Portfolio Website</title>
+        <style>
+            .container {
+    width: 1440px;
+    height: auto;
+    background: rgba(240, 240, 246, 1);
+    padding-top: 210px;
+    position: relative;
+}
+
+/*--NAVBAR--*/
+.navbar {
+    width: 1,440px;
+    height: 90px;
+    padding: 38px 96px 38px 96px;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 4px 0px 10px 0px rgba(47, 122, 249, 0.1);
+    display: flex;
+    margin-bottom: 0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+}
+.nav-photo {
+    width: 158px;
+    height: 76px;
+    padding: 0px;
+    gap: 0px;
+    float: left;
+}
+.image {
+    width: 158px;
+    height: 76px;
+    top: 38px;
+    left: 96px;
+    gap: 0px;
+}
+.nav-menu {
+    width: 604px;
+    height: 37px;
+    gap: 0px;
+    float: left;
+    padding-top: 17px;
+    padding-left: 486px;
+}
+.a {
+    width: 68px;
+    height: 37px;
+    gap: 0px;
+    border-radius: 5px;
+    float: left;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer;
+}
+.a:hover {
+    background: rgba(255, 180, 0, 1);
+}
+.a1 {
+    width: 68px;
+    height: 37px;
+    padding: 10px 14px 10px 14px;
+    gap: 0px;
+    border-radius: 10px;
+    float: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.nav-menu p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+}
+.b {
+    width: 35px;
+    height: 37px;
+    gap: 0px;
+    border-radius: 10px;
+    padding-left: 25px;
+    float: left;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background: rgba(255, 180, 0, 1);
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.b1 {
+    width: 35px;
+    height: 37px;
+    padding: 10px 0px 10px 0px;
+    gap: 0px;
+    border-radius: 10px;
+    float: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.c {
+    width: 67px;
+    height: 37px;
+    gap: 0px;
+    border-radius: 10px;
+    padding-left: 25px;
+    float: left;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.c1 {
+    width: 67px;
+    height: 37px;
+    padding: 10px 0px 10px 0px;
+    gap: 0px;
+    border-radius: 10px;
+    float: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.d {
+    width: 55px;
+    height: 37px;
+    gap: 0px;
+    border-radius: 10px;
+    padding-left: 25px;
+    float: left;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.d1 {
+    width: 55px;
+    height: 37px;
+    padding: 10px 0px 10px 0px;
+    gap: 0px;
+    border-radius: 10px;
+    float: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.e {
+    width: 120px;
+    height: 37px;
+    gap: 0px;
+    border-radius: 10px;
+    padding-left: 25px;
+    float: left;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.e1 {
+    width: 120px;
+    height: 37px;
+    padding: 10px 0px 10px 0px;
+    gap: 0px;
+    border-radius: 10px;
+    float: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.f {
+    width: 54px;
+    height: 37px;
+    gap: 0px;
+    border-radius: 10px;
+    padding-left: 25px;
+    float: left;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.f1 {
+    width: 54px;
+    height: 37px;
+    padding: 10px 0px 10px 0px;
+    gap: 0px;
+    border-radius: 10px;
+    float: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+/*--SKILLS--*/
+.skills {
+    width: 1244px;
+    height: auto;
+    margin-left: 98px;
+    margin-top: 0;
+}
+.text {
+    width: 1244px;
+height: 132.27px;
+}
+.text1 p{
+    width: 1245px;
+height: 11px;
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 39.55px;
+text-align: center;
+}
+.text2 {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.text2 p{
+    width: 438px;
+height: 69.28px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: rgba(118, 118, 118, 1);
+}
+.skillsrow1 {
+    width: 1,244px;
+height: 316px;
+display: flex;
+}
+.outerbox{
+    width: 385px;
+height: 316px;
+background-color: white;
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.innerbox {
+    width: 290.51px;
+height: 244.45px;
+}
+.outerbox1{
+    width: 385px;
+height: 316px;
+background-color: white;
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 44.5px;
+}
+.innerbox p{
+    width: 209px;
+height: 22px;
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 22.25px;
+text-align: left;
+margin-top: 0px;
+}
+.skillbar {
+    display: flex;
+    height: 24.24px;
+}
+.skillName p{
+    width: 249px;
+height: 24.24px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(118, 118, 118, 1);
+float: left;
+}
+.percent p {
+    width: 40.93px;
+height: 24.24px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: right;
+color: rgba(118, 118, 118, 1);
+float: left;
+}
+.progress {
+    width: 290.51px;
+height: 4.04px;
+border: 0.5px 0px 0px 0px;
+background-color: white;
+border-radius: 5px;
+position: relative;
+border: 0.5px solid rgba(255, 180, 0, 1)
+}
+.progress-bar {
+    height: 100%;
+    background-color: rgba(255, 180, 0, 1);
+    border-radius: 5px;
+    position: absolute;
+    transition: width 0.3s ease;
+}
+.add-skill-button {
+    width: 151px;
+height: 51px;
+padding: 17px 16px 17px 16px;
+border-radius: 5px;
+background: rgba(255, 180, 0, 1);
+border: none;
+cursor: pointer;
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.94px;
+margin-top: 30px;
+margin-left: 550px;
+}
+
+/*--MODAL--*/
+
+.dialog {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.dialog-content {
+    width: 833px;
+    height: 600px;
+    padding: 28px 28px 28px 28px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dialog-content p {
+    width: 833px;
+height: 54px;
+font-family: Inter;
+font-size: 44px;
+font-weight: 700;
+line-height: 54.38px;
+text-align: center;
+}
+
+.domain-section {
+    width: 777px;
+height: 90px;
+}
+
+.domain-section label {
+    width: 793px;
+height: 27.5px;
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 27.5px;
+text-align: left;
+}
+
+.domain-section input[type="text"] {
+    width: 810px;
+height: 40px;
+border-radius: 5px;
+background: rgba(240, 240, 246, 1);
+border: none;
+margin-top: 15px;
+font-size: 18px;
+font-weight: 500;
+line-height: 22.25px;
+text-align: left;
+}
+
+.dialog-skill-section {
+    width: 810px;
+height: 507.5px;
+}
+
+.dialog-skill-section p{
+    width: 777px;
+height: 27.5px;
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 26.4px;
+text-align: left;
+}
+
+.doamin-heading {
+    width: 777px;
+height: 22px;
+display: flex;
+}
+.domain-skill-name {
+font-family: Inter;
+width: 675px;
+font-size: 18px;
+font-weight: 500;
+line-height: 22.25px;
+text-align: left;
+float: left;
+}
+.domain-proficiency {
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 22.25px;
+text-align: right;
+float: left;
+}
+.dialog-skill {
+    width: 810px;
+height: 210px;
+display: flex;
+}
+.dialog-skill-1 {
+    width: 650px;
+height: 210px;
+float: left;
+}
+.dialog-skill-2 {
+    width: 170px;
+height: 210px;
+float: left;
+}
+#dialog-skill{
+    width: 610px;
+height: 40px;
+border-radius: 5px;
+background: rgba(240, 240, 246, 1);
+border: none;
+}
+#dialog-proficiency {
+    width: 170px;
+height: 40px;
+border-radius: 5px;
+background: rgba(240, 240, 246, 1);
+border: none;
+}
+
+.button1 {
+  padding: 10px 20px;
+  background-color: rgba(255, 180, 0, 1);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.94px;
+margin-left: 550px;
+}
+
+.button2 {
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid rgba(255, 180, 0, 1);
+  color: red;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.94px;
+margin-left: 10px;
+}
+
+/*--FOOTER--*/
+.footer {
+    width: 1,440px;
+height: 621px;
+padding: 0px 0px 20px 0px;
+padding-top: 40px;
+}
+.footer-logo {
+    width: 970px;
+height: 144px;
+display: flex;
+justify-content: center;
+margin-left: 200px;
+}
+.frame1 {
+    width: 140px;
+height: 144px;
+padding-left: 55px;
+}
+.frame2 {
+    width: 140px;
+height: 144px;
+padding-left: 75px;
+float: left;
+}
+.frame270 {
+    width: 1,440px;
+height: 335px;
+padding: 45px 98px 0px 98px;
+gap: 40px;
+float: left;
+margin-left: 30px;
+}
+.rectangle98 {
+    width: 158px;
+height: 76px;
+top: 45px;
+left: 98px;
+}
+.frame271 {
+    width: 1,244px;
+height: 230px;
+margin-top: 30px;
+display: flex;
+}
+.logos {
+    width: 177px;
+height: 230px;
+float: left;
+margin-left: 10px;
+}
+.rectangle97 {
+    width: 177px;
+height: 61px;
+}
+.upwork {
+    width: 91px;
+height: 40px;
+border-radius: 4px;
+}
+.upwork1 p{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+color: rgba(118, 118, 118, 1);
+margin-top: 0px;
+}
+.group270 {
+    width: 149px;
+height: 64px;
+margin-top: 16px;
+}
+.dribble {
+    width: 73px;
+height: 40px;
+border-radius: 4px;
+}
+.rectangle100 {
+    width: 146px;
+height: 65px;
+margin-top: 16px;
+}
+.fiverr {
+    width: 76px;
+height: 40px;
+border-radius: 4px;
+}
+.links {
+    width: 780px;
+height: 202px;
+float: left;
+margin-left: 220px;
+display: flex;
+}
+.quicklinks {
+    width: 141px;
+height:202px;
+margin-left: 60px;
+float: left;
+}
+.heading p{
+    width: 114px;
+height: 30px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+margin-top: 0px;
+}
+.heading1 p{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+.portfolio {
+    width: 174px;
+height: 202px;
+margin-left: 110px;
+float: left;
+}
+.connect{
+    width: 125px;
+height: 157px;
+margin-left: 110px;
+float: left;
+}
+.social {
+    width: 100px;
+height: 25px;
+padding-bottom: 17px;
+}
+.copyright {
+    width: 283px;
+height: 50px;
+padding: 16px 0px 16px 0px;
+float: left;
+margin-left: 600px;
+margin-top: 0px;
+}
+.vector {
+    width: 21px;
+height: 21px;
+top: 1.5px;
+left: 1.5px;
+float: left;
+}
+.copyright p{
+    width: 249px;
+height: 24px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(118, 118, 118, 1);
+float: left;
+margin-left: 10px;
+margin-top: 0px;
+}
+        </style>
+    </head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="nav-photo">
+                <img src="assets/images/logo.png" alt="Logo" class="image">
+            </div>
+            <div class="nav-menu">
+                <div class="a">
+                    <div class="a1">
+                        <p>Home</p>
+                    </div>
+                </div>
+                <div class="b">
+                    <div class="b1">
+                        <p>Skills</p>
+                    </div>
+                </div>
+                <div class="c">
+                    <div class="c1">
+                        <p>Education</p>
+                    </div>
+                </div>
+                <div class="d">
+                    <div class="d1">
+                        <p>Projects</p>
+                    </div>
+                </div>
+                <div class="e">
+                    <div class="e1">
+                        <p>Recommendations</p>
+                    </div>
+                </div>
+                <div class="f">
+                    <div class="f1">
+                        <p>Contact</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <div class="skills">
+            <div class="text">
+                <div class="text1"><p>Skills & Languages</p></div>
+                <div class="text2"><p>With a strong foundation in frontend development, I possess expertise in the following skills and programming languages</p></div>
+            </div>
+
+            <div class="skillsrow1">
+                <div class="outerbox">
+                    <div class="innerbox">
+                        <p class="doamin1">Front End Development</p>
+                        <div class="skillbar">
+                            <div class="skillName"><p>HTML</p></div>
+                            <div class="percent"><p>90%</p></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div><br>
+                        <div class="skillbar">
+                            <div class="skillName"><p>CSS</p></div>
+                            <div class="percent"><p>90%</p></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div><br>
+                        <div class="skillbar">
+                            <div class="skillName"><p>JavaScript</p></div>
+                            <div class="percent"><p>75%</p></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%;"></div>
+                        </div><br>
+                    </div>
+                </div>
+
+                <div class="outerbox1">
+                    <div class="innerbox">
+                        <p class="doamin1">Languages</p>
+                        <div class="skillbar">
+                            <div class="skillName"><p>Hindi</p></div>
+                            <div class="percent"><p>90%</p></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div><br>
+                        <div class="skillbar">
+                            <div class="skillName"><p>English</p></div>
+                            <div class="percent"><p>90%</p></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div><br>
+                    </div>
+                </div>
+
+                <div class="outerbox1">
+                    <div class="innerbox">
+                        <p class="domain1">Back End Development</p>
+                        <div class="skillbar">
+                            <div class="skillName"><p>Python</p></div>
+                            <div class="percent"><p>90%</p></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div><br>
+                        <div class="skillbar">
+                            <div class="skillName"><p>C++</p></div>
+                            <div class="percent"><p>80%</p></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;"></div>
+                        </div><br>
+                        <div class="skillbar">
+                            <div class="skillName"><p>Java</p></div>
+                            <div class="percent"><p>70%</p></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;"></div>
+                        </div><br>
+                        <div class="skillbar">
+                            <div class="skillName"><p>SQL</p></div>
+                            <div class="percent"><p>70%</p></div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;"></div>
+                        </div><br>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="add-skill-button">ADD SKILL</button> 
+        </div>
+        <div class="dialog">
+            <div class="dialog-content">
+                <p>Add Skill</p>
+              
+                <div class="domain-section">
+                  <label for="domain">Domain</label>
+                  <input type="text" id="domain" placeholder="Front End Development">
+                </div>
+              
+                <div class="dialog-skill-section">
+                  <p>Skills</p>
+                  <div class="domain-heading">
+                      <div class="domain-skill-name">Skill</div>
+                      <div class="domain-proficiency">Proficiency (%)</div>
+                  </div> <br><br>
+              
+                  <div class="dialog-skill">
+                      <div class="dialog-skill-1">
+                          <input type="text" id="dialog-skill" ><br><br>
+                          <input type="text" id="dialog-skill" ><br><br>
+                          <input type="text" id="dialog-skill" ><br>
+                      </div>
+                      <div class="dialog-skill-2">
+                          <input type="number" id="dialog-proficiency" ><br><br>
+                          <input type="number" id="dialog-proficiency" ><br><br>
+                          <input type="number" id="dialog-proficiency" ><br>
+                      </div>
+                  </div>
+              
+                  <button class="button1">ADD SKILL</button>
+                  <button class="button2">CANCEL</button>
+              </div>
+              </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-logo">
+                <div class="frame1">
+                    <img src="assets/images/Frame1.png" alt="Frame1" class="frame1">
+                </div>
+                <div class="frame2">
+                    <img src="assets/images/Frame2.png" alt="Frame1" class="frame1">
+                </div>
+                <div class="frame2">
+                    <img src="assets/images/Frame3.png" alt="Frame1" class="frame1">
+                </div>
+                <div class="frame2">
+                    <img src="assets/images/Frame4.png" alt="Frame1" class="frame1">
+                </div>
+            </div>
+    
+            <div class="frame270">
+                <div class="rectangle98">
+                    <img src="assets/images/logo.png" alt="logo" class="rectangle98">
+                </div>
+                <div class="frame271">
+                    <div class="logos">
+                        <div class="rectangle97">
+                            <div class="upwork"><img src="assets/images/Upwork.png" alt="upwork" class="upwork"></div>
+                            <div class="upwork1"><p>4.5/5 rating on Upwork</p></div>
+                        </div>
+                        <div class="group270">
+                            <div class="dribble"><img src="assets/images/Dribble.png" alt="dribble" class="dribble"></div>
+                            <div class="upwork1"><p>9/10 rating on Dribble</p></div>
+                        </div>
+                        <div class="rectangle100">
+                            <div class="fiverr"><img src="assets/images/Fiverr.png" alt="fiverr" class="fiverr"></div>
+                            <div class="upwork1"><p>4.5/5 rating on Fiverr</p></div>
+                        </div>
+                    </div>
+    
+                    <div class="links">
+                        <div class="quicklinks">
+                            <div class="heading"><p>Quick links</p></div>
+                            <div class="heading1"><p>Home<br>Skills<br>Education<br>Projects<br>Recommendations</p></div>
+                        </div>
+                        <div class="portfolio">
+                            <div class="heading"><p>Portfolio</p></div>
+                            <div class="heading1"><p>Frontend Development<br>Backend Development<br>Website Design<br>Machine learning<br>Problem Solving & DSA</p></div>
+                        </div>
+                        <div class="connect">
+                            <div class="heading"><p>Connect</p></div>
+                            <div class="social"><img src="assets/images/LinkedIn.png" alt="LinledIn" class="social"></div>
+                            <div class="social"><img src="assets/images/Instagram.png" alt="Instagram" class="social"></div>
+                            <div class="social"><img src="assets/images/Facebook.png" alt="Facebook" class="social"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="copyright">
+                <img src="assets/images/Vector.png" alt="vector" class="vector">
+                <p>2024 Copyright, All Right Reserved</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const addSkillButton = document.querySelector('.add-skill-button');
+        const dialog = document.querySelector('.dialog');
+        const dialogContent = document.querySelector('.dialog-content');
+        const closeButton = document.querySelector('.button2');
+        const addSkillBtn = document.querySelector('.button1');
+        const doaminSkillInput = document.querySelector('#domain');
+        const skillNameInput = document.querySelector('#dialog-skill');
+        const skillLevelInput = document.querySelector('#dialog-proficiency');
+        const skillsContainer = document.querySelector('.row1');
+        
+        function addSkill() {
+          const doaminSkill = doaminSkillInput.value.trim();
+          const skillName = skillNameInput.value.trim();
+          const skillLevel = skillLevelInput.value.trim();
+        
+          if (domaninSkill !== '' && skillName !== '' && skillLevel !== '') {
+            const categoryElement = document.createElement('div');
+            categoryElement.classList.add('row1');
+        
+            const skillElement = document.createElement('div');
+            skillElement.classList.add('outerbox');
+            const skillElement1 = document.createElement('div');
+            skillElement.classList.add('innerbox');
+            
+            const domainSkillElement = document.createElement('div');
+            domainSkillElement.classList.add('doamin1');
+            domainSkillElement.textContent = doaminSkill;
+            const skillNameElement = document.createElement('div');
+            skillNameElement.classList.add('dialog-skill');
+            skillNameElement.textContent = skillName;
+        
+            const skillLevelElement = document.createElement('div');
+            skillLevelElement.textContent = skillLevel + '%';
+        
+            const progressBarElement = document.createElement('div');
+            progressBarElement.classList.add('progress');
+
+            const progressBarInnerElement = document.createElement('div');
+            progressBarInnerElement.classList.add('progress-bar');
+            progressBarInnerElement.style.width = skillLevel + '%';
+
+            skillElement1.appendChild(skillNameElement);
+            progressBarElement.appendChild(progressBarElement);
+            progressBarElement.appendChild(progressBarInnerElement);
+            skillElement1.appendChild(skillLevelElement);
+
+            categoryElement.appendChild(skillElement1);
+
+            skillsContainer.appendChild(categoryElement);
+
+            doaminSkillInput.value = '';
+            skillNameInput.value = '';
+            skillLevelInput.value = '';
+
+            dialog.style.display = 'none';
+          }
+        }
+
+        addSkillButton.addEventListener('click', () => {
+          dialog.style.display = 'block';
+        });
+
+        closeButton.addEventListener('click', () => {
+          dialog.style.display = 'none';
+        });
+        
+        addSkillBtn.addEventListener('click', addSkill);
+        addSkillBtn.addEventListener('click', () => {
+          dialog.style.display = 'none';
+        });
+        
+        dialog.addEventListener('click', (e) => {
+          if (e.target === dialog) {
+            dialog.style.display = 'none';
+          }
+        });</script>
+    
+</body>
+</html>

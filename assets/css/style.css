@@ -1,7 +1,9 @@
 .container {
     width: 1440px;
-    height: 3977px;
+    height: auto;
     background: rgba(240, 240, 246, 1);
+    padding-top: 210px;
+    position: relative;
 }
 .navbar {
     width: 1,440px;
@@ -78,6 +80,11 @@
     justify-content: center; 
     align-items: center;
     cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.b:hover {
+    background: rgba(255, 180, 0, 1);
 }
 .b1 {
     width: 35px;
@@ -182,8 +189,8 @@
     width: 1440px;
     height: 631px;
     gap: 0px;
-    margin-top: 0;
-    padding: 140px 0.31px 0px 0.31px;
+    margin-top: -49px;
+    padding: 0px 0.31px 0px 0.31px;
 
 }
 .hero {

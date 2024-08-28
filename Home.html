@@ -7,6 +7,102 @@
         <link rel="stylesheet" href="assets/css/style.css">
         
         <title>Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <style>
+    /* Importing Google Font - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.recommendations {
+    float: left;
+    width: 1,440px;
+height: 630px;
+top: 1957.16px;
+margin-top: 70px;
+}
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 122px 55px;
+}
+
+.card-list .card-item {
+  height: auto;
+  user-select: none;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.card-list .card-item .user-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  border: 3px solid #fff;
+  padding: 4px;
+}
+
+.card-list .card-item .user-profession {
+  font-size: 1.15rem;
+  color: #e3e3e3;
+  font-weight: 500;
+  margin: 14px 0 40px;
+}
+
+.card-list .card-item .message-button {
+  font-size: 1.25rem;
+  padding: 10px 35px;
+  color: #030728;
+  border-radius: 6px;
+  font-weight: 500;
+  background: #fff;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+
+.card-list .card-item .message-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+}
+
+.slider-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.slider-wrapper .swiper-slide-button {
+  color: #fff;
+  margin-top: -55px;
+  transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+  color: rgba(255, 180, 0, 1);
+}
+
+@media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+}
+  </style>
     </head>
 
 <body>
@@ -143,6 +239,56 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="recommendations">
+            <p class="description3">Recommendations</p>
+            <p class="description4">Discover what clients and collaborators are saying about the quality, dedication, and creativity that define my front-end development work.</p>
+            <div class="container swiper">
+                <div class="slider-wrapper">
+                  <div class="card-list swiper-wrapper">
+                    <div class="card-item swiper-slide" style="width: 340px; height: 327px; background-color: white;">
+                      <img src="assets/images/Profile1.png" alt="User Image" class="user-image" style="margin-top: 20px;">
+                      <p style="font-family: Inter; font-size: 32px; font-weight: 600; margin-top: 0px;">Arjun Pandey</p>
+                      <p style="font-family: Inter; font-size: 17px; font-weight: 400; margin-top: 0px;">Highly skilled front-end developer with a passion for creating responsive, user-friendly web applications that blend beautiful design with seamless functionality.</p>
+                    </div>
+            
+                    <div class="card-item swiper-slide" style="width: 340px; height: 327px; background-color: white;">
+                        <img src="assets/images/Profile2.png" alt="User Image" class="user-image" style="margin-top: 20px;">
+                        <p style="font-family: Inter; font-size: 32px; font-weight: 600; margin-top: 0px;">Shradha Aggarwal</p>
+                        <p style="font-family: Inter; font-size: 17px; font-weight: 400; margin-top: 0px;">An innovative front-end developer with a knack for turning complex problems into intuitive, engaging user experiences.</p>
+                      </div>
+            
+                      <div class="card-item swiper-slide" style="width: 340px; height: 327px; background-color: white;">
+                        <img src="assets/images/Profile1.png" alt="User Image" class="user-image" style="margin-top: 20px;">
+                        <p style="font-family: Inter; font-size: 32px; font-weight: 600; margin-top: 0px;">Nishant Gupta</p>
+                        <p style="font-family: Inter; font-size: 17px; font-weight: 400; margin-top: 0px;">A creative and detail-oriented developer who consistently delivers visually stunning, highly interactive web solutions.</p>
+                      </div>
+            
+                      <div class="card-item swiper-slide" style="width: 340px; height: 327px; background-color: white;">
+                        <img src="assets/images/Profile1.png" alt="User Image" class="user-image" style="margin-top: 20px;">
+                        <p style="font-family: Inter; font-size: 32px; font-weight: 600; margin-top: 0px;">Arjun Pandey</p>
+                        <p style="font-family: Inter; font-size: 17px; font-weight: 400; margin-top: 0px;">Highly skilled front-end developer with a passion for creating responsive, user-friendly web applications that blend beautiful design with seamless functionality.</p>
+                      </div>
+            
+                      <div class="card-item swiper-slide" style="width: 340px; height: 327px; background-color: white;">
+                        <img src="assets/images/Profile2.png" alt="User Image" class="user-image" style="margin-top: 20px;">
+                        <p style="font-family: Inter; font-size: 32px; font-weight: 600; margin-top: 0px;">Shradha Aggarwal</p>
+                        <p style="font-family: Inter; font-size: 17px; font-weight: 400; margin-top: 0px;">An innovative front-end developer with a knack for turning complex problems into intuitive, engaging user experiences.</p>
+                      </div>
+            
+                      <div class="card-item swiper-slide" style="width: 340px; height: 327px; background-color: white;">
+                        <img src="assets/images/Profile1.png" alt="User Image" class="user-image" style="margin-top: 20px;">
+                        <p style="font-family: Inter; font-size: 32px; font-weight: 600; margin-top: 0px;">Nishant Gupta</p>
+                        <p style="font-family: Inter; font-size: 17px; font-weight: 400; margin-top: 0px;">A creative and detail-oriented developer who consistently delivers visually stunning, highly interactive web solutions.</p>
+                      </div>
+                  </div>
+            
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-slide-button swiper-button-prev"></div>
+                  <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+              </div>
         </div>
 
         <div class="contact-info">
@@ -324,5 +470,44 @@ function isValidEmail(email) {
   return emailPattern.test(email);
 }
     </script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+ <script >
+   const swiper = new Swiper('.slider-wrapper', {
+ loop: true,
+ grabCursor: true,
+ spaceBetween: 30,
+
+ pagination: {
+   el: '.swiper-pagination',
+   clickable: true,
+   dynamicBullets: true
+ },
+
+ navigation: {
+   nextEl: '.swiper-button-next',
+   prevEl: '.swiper-button-prev',
+ },
+
+ breakpoints: {
+   0: {
+     slidesPerView: 1
+   },
+   768: {
+     slidesPerView: 2
+   },
+   1024: {
+     slidesPerView: 3
+   }
+ }
+});
+ </script>
+
+<script>
+    document.querySelector('.b').addEventListener('click', function() {
+        window.location.href = 'Skills Page.html';
+    });
+</script>
+
 </body>
 </html>
